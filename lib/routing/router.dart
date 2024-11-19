@@ -34,9 +34,9 @@ final router = Provider(
     // using the handcrafted routes, Dialogs will correctly be dismissed.
     return GoRouter(
       // using $appRoutes will show the bug
-      //routes: $appRoutes
+      routes: $appRoutes
       // those are the same routes, but without the bug
-      routes: _routes,
+      //routes: _routes,
     );
   },
 );
